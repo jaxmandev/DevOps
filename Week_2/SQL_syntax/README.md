@@ -61,6 +61,7 @@ The DBMS will enforce the uniqueness of the primary key, not allowing repeated r
 - Foreign key will always be used to have a one to many relationship.
 ```
 ### Composite key
+```
 A composite key is used when their is no unique candidate for the primary key. To make the composite key you can merge 2 colnmns together, forming a unique composite key
 Type of database
 Flat-file database • Stores everything in one table. Good for small numbers of records related to a single topic.
@@ -68,7 +69,7 @@ Relational database • Gives you the ability to separate masses of data into nu
 Big data • MongoDB, Vertica etc • Used for data analytics and buissness inteligence • Digital age and internet of things
 One to one
 In a one-to-one relationship, one record in a table is associated with one and only one record in another table. For example, in a school database, each student has only one student ID, and each student ID is assigned to only one person.
-
+```
 ### SSL - Secure Sockets Layer
 Security protocol used to secure data between two machines using encryption.
 
