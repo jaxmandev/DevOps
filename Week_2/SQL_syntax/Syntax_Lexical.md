@@ -1,4 +1,4 @@
-## SELECT DISTINCT Syntax
+## SELECT DISTINCT Syntax
 ```
 SELECT DISTINCT column1, column2, ...
 FROM table_name;
@@ -44,7 +44,7 @@ VALUES (value1, value2, value3, …);
 SELECT column_names
 FROM table_name
 WHERE column_name IS NULL;
-
+```
 ## IS NOT NULL Syntax
 ```
 SELECT column_names
