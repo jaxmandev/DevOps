@@ -224,8 +224,9 @@ CASE
     ELSE result
 END;
 ```
-```
+
 ## A stored procedure
+```
 - a prepared SQL code that you can save, so the code can be reused over and over again.
 So if you have an SQL query that you write over and over again, save it as a stored procedure, and then just call it to execute it.
 You can also pass parameters to a stored procedure, so that the stored procedure can act based on the parameter value(s) that is passed.
@@ -234,84 +235,90 @@ CREATE PROCEDURE procedure_name
 AS sql_statement
 GO;
 ```
-
-
-Execute a Stored Procedure
+- Execute a Stored Procedure
 EXEC procedure_name;
 
 
+## DATABASE STATEMENTS
 
-
-DATABASE STATEMENTS
-
-CREATE DATABASE testDB;
+- CREATE DATABASE testDB;
 The CREATE DATABASE statement is used to create a new SQL database.
 
-DROP DATABASE testDB;
+- DROP DATABASE testDB;
 statement drops the existing database “testDB":
 
-BACKUP DATABASE databasename
-TO DISK = ‘filepath’;
+- BACKUP DATABASE databasename
+- TO DISK = ‘filepath’;
 used in SQL Server to create a full back up of an existing SQL database.
 
-BACKUP DATABASE databasename
-TO DISK = 'filepath'
+- BACKUP DATABASE databasename
+- TO DISK = 'filepath'
 WITH DIFFERENTIAL;
-A differential back up only backs up the parts of the database that have changed since the last full database backup.
+- A differential back up only backs up the parts of the database that have changed since the last full database backup.
 
-The CREATE TABLE statement is used to create a new table in a database.
+- The CREATE TABLE statement is used to create a new table in a database.
 Syntax
+```
 CREATE TABLE table_name (
     column1 datatype,
     column2 datatype,
     column3 datatype,
    ....
 );
-
-Create Table Using Another Table
+```
+### Create Table Using Another Table
+```
 CREATE TABLE new_table_name AS
     SELECT column1, column2,...
     FROM existing_table_name
     WHERE ….;
+```
+- DROP TABLE table_name;
 
-DROP TABLE table_name;
-
-ALTER TABLE - ADD Column
+### ALTER TABLE - ADD Column
 To add a column in a table, use the following syntax:
+```
 ALTER TABLE Customers
 ADD Email varchar(255);
-
-To delete a column in a table, use the following syntax (notice that some database systems don't allow deleting a column):
+```
+### Delete a column in a table
+(notice that some database systems don't allow deleting a column):
+```
 ALTER TABLE table_name
 DROP COLUMN column_name;
+```
 
-To change the data type of a column in a table, use the following syntax:
+### Change the data type of a column in a table, use the following syntax:
+```
 SQL Server / MS Access:
 ALTER TABLE table_name
 ALTER COLUMN column_name datatype;
-
-Constraints can be specified when the table is created with the CREATE TABLE statement, or after the table is created with the ALTER TABLE statement.
-Syntax
+```
+- Constraints can be specified when the table is created with the CREATE TABLE statement, or after the table is created with the ALTER TABLE statement.
+### Syntax
+```
 CREATE TABLE table_name (
     column1 datatype constraint,
     column2 datatype constraint,
     column3 datatype constraint,
     ....
 );
-
+```
 The following constraints are commonly used in SQL:
-NOT NULL - Ensures that a column cannot have a NULL value
-UNIQUE - Ensures that all values in a column are different
-PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
-FOREIGN KEY - Uniquely identifies a row/record in another table
-CHECK - Ensures that all values in a column satisfies a specific condition
-DEFAULT - Sets a default value for a column when no value is specified
-INDEX - Used to create and retrieve data from the database very quickly
+1. NOT NULL - Ensures that a column cannot have a NULL value
+2. UNIQUE - Ensures that all values in a column are different
+3. PRIMARY KEY - A combination of a NOT NULL and UNIQUE. Uniquely identifies each row in a table
+4. FOREIGN KEY - Uniquely identifies a row/record in another table
+5. CHECK - Ensures that all values in a column satisfies a specific condition
+6. DEFAULT - Sets a default value for a column when no value is specified
+7. INDEX - Used to create and retrieve data from the database very quickly
 
-A FOREIGN KEY is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
+### A FOREIGN KEY 
+- is a field (or collection of fields) in one table that refers to the PRIMARY KEY in another table.
 
-SQL CHECK on CREATE TABLE
-The following SQL creates a CHECK constraint on the "Age" column when the "Persons" table is created. The CHECK constraint ensures that the age of a person must be 18, or older:
+### SQL CHECK on CREATE TABLE
+- The following SQL creates a CHECK constraint on the "Age" column when the "Persons" table is created. The CHECK constraint ensures that the age of a person must be 18, or older:
+```
 MySQL:
 CREATE TABLE Persons (
     ID int NOT NULL,
@@ -320,6 +327,8 @@ CREATE TABLE Persons (
     Age int,
     CHECK (Age>=18)
 );
+```
+```
 SQL Server / Oracle / MS Access:
 CREATE TABLE Persons (
     ID int NOT NULL,
@@ -327,3 +336,4 @@ CREATE TABLE Persons (
     FirstName varchar(255),
     Age int CHECK (Age>=18)
 );
+```
