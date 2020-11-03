@@ -1,4 +1,3 @@
-viewer = int(input("Enter your age"))
 # if, elif and else
 # Using operators ==, >, etc..
 # Check age restrictions before selling the ticket
