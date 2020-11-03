@@ -1,6 +1,4 @@
-# Python Collections #
-
-### Lists ###
+### Lists
 # Mutable, remove, add, change
 # Syntax: [var, var2, var3]
 
