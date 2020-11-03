@@ -35,3 +35,15 @@ Add, delete, replace, pop
 Use indexing to print the list in reverse order
 
 ```
+
+### Task 4
+
+Create a new dictionary to store user details
+```
+All the details that you utilised in the last task
+Create a list of hobbies
+At least 3 hobbies
+Remove, Add, Replace
+Display Type of items
+Display data in reverse order (hobbies)
+```
