@@ -47,3 +47,11 @@ Remove, Add, Replace
 Display Type of items
 Display data in reverse order (hobbies)
 ```
+### Task 5
+Create a program using control flow with if, elif and else
+```
+Using operators ==, >, etc..
+Check age restrictions before selling the ticket
+Over 18, 15, 12, PG, U
+else block should ensure to display message if other conditions
+```
