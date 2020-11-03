@@ -1,4 +1,4 @@
-# SQL 
+# SQL
 Structured Query Language (SQL) is a
 - programming language
 - is typically used in relational database or data stream management systems.
@@ -19,7 +19,7 @@ We didn't have a lot of storage or disk drive. We used tape drives but their pro
 Relational databases model data by storing rows and columns in tables.
 The power of the relational database lies in its ability to efficiently retrieve data from those tables and in particular where there are multiple tables and the relationships between those tables involved in query.
 ```
-### Database 
+### Database
 ```
 File that is organised for storing data and contains many tables. Most databases are organised like a dictionary in the sense that they map from keys to values. The biggest difference is that the database is on disk (or other permanent storage), so it persists after the program ends. Because a database is stored on permanent storage, it can store far more data than a dictionary, which is limited to the size of the memory in the computer
 ```
@@ -57,7 +57,7 @@ The DBMS will enforce the uniqueness of the primary key, not allowing repeated r
 - It prevents invalid data from being inserted into the froeign key column, because it has to be on of the values contained in the table it points too.
 - There is no uniqness constraint for foreign keys.
 - A table can have any number of foreign keys.
-- A row cannot be delted from the referance table if it is in use via a foreign key.
+- A row cannot be deleted from the referance table if it is in use via a foreign key.
 - Foreign key will always be used to have a one to many relationship.
 ```
 ### Composite key
