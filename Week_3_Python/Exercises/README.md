@@ -25,3 +25,13 @@ Display Message "Your age is "
 Address - Including post code and first line of address - house number
 DOB
 ```
+
+### Task 3
+
+Create a mixed data type list of 7 items
+```
+Display the type of the data
+Add, delete, replace, pop 
+Use indexing to print the list in reverse order
+
+```
