@@ -1,19 +1,19 @@
 # DevOps
 ### What is DevOps
 ```
-DevOps is a new term emerging from the collision of two major related trends.
-It is a practice of operations and development engineers participating together in the entire service lifecycle, from design through the development process to production support.
+- DevOps is a new term emerging from the collision of two major related trends.
+- It is a practice of operations and development engineers participating together in the entire service lifecycle, from design through the development process to production support.
 It is a bridge between development and operations.
 ```
-- Infrastucture automatiom
+#### Infrastucture automatiom
 ```
 Create your systems, OS configs and app deployments as code
 ```
-- Continuous Delivery
+#### Continuous Delivery
 ```
 Build, test and deploy your apps in a fast and automated manner
 ```
-- Site Reliability Engineer
+#### Site Reliability Engineer
 ```
 Operate your systems; monitoring and orcheastration, sure, but also designing for operability in the first place.
 ```
