@@ -1,9 +1,3 @@
-# Day 2
-
-## Trello
-
-Join --> Keep track --> Refer back to the board whenever you want to revise
-
 ## SSH key
 
 - Generate an SSH key using:
