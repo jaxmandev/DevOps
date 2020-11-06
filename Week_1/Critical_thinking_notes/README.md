@@ -18,9 +18,6 @@
 
 - Does the information make sense in relation to other research? 
 - How old is research materiel? Does argument present balanced view?
-
-![alt text](https://github.com/jaxmandev/sparta_devops/blob/main/Day_3/img/blooms_taxonomy.jpeg)
-
 - Divergent —> idea to question to idea to question 
 - Convergent —> converge data and facts with answer
 - Lateral —> use of both modes of thinking
