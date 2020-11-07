@@ -26,8 +26,10 @@
 
 ### Week 3
 ```
-
-
+- Python Basics
+- Python Functions & Classes
+- Object Oriented Programming
+- Python Tasks
 ```
 
 
