@@ -49,7 +49,7 @@ What are the indivdual rights?
 - Rights related to automated decisions
 ```
 ### Principles of GDPR
-
+```
 - Lawfulness, fairness and transparency
 - Purpose limitation
 - Data minimisation
@@ -58,6 +58,7 @@ What are the indivdual rights?
 - Accurate and up to date
 - Accountability
 - Other Obligations
+```
 ```
 Assign Data Protection Officer (DPO)
 Inform ICO of data breaches within 72 hours (organisation that deals with these information
