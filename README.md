@@ -26,11 +26,18 @@
 
 ### Week 3
 ```
+<<<<<<< HEAD
 - APIs inc. calls and requests
 - Python Modules inc. pyodbc, built-in e.g. random, date and time
 - Python Test Driven Development inc. unittest, pytest
 - Python JSON handling
 - Python with SQL
+=======
+- Python Basics
+- Python Functions & Classes
+- Object Oriented Programming
+- Python Tasks
+>>>>>>> 5e056f4021500eb7ba2a44edf5e1fb3dfe819f11
 ```
 
 
