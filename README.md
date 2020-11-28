@@ -47,4 +47,14 @@
 - Airport Assistant Project (4-days)
 ```
 
+### Week 6
+```
+- Development environments
+- Provisioning virtual machines
+- Multiple VMs
+- Advanced bash commands
+- Environment variables
+- Intro to CI & CD
+```
 
+- 
