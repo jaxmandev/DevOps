@@ -56,5 +56,3 @@
 - Environment variables
 - Intro to CI & CD
 ```
-
-- 
