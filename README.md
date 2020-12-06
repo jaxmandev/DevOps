@@ -56,3 +56,11 @@
 - Environment variables
 - Intro to CI & CD
 ```
+### Week 7
+```
+- Jenkins practice
+- The cloud as infrastructure
+- AWS and EC2 deployment
+- Networks
+- Full CI/CD task
+```
